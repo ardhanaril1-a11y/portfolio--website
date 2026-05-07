@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ardhanari L | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <div class="ambient-motion" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Go to home">AL</a>
+
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"></p>
+        <h1>Hi, I am <span>Ardhanari L</span></h1>
+        <p class="hero-text">
+          I create responsive, user-friendly web interfaces using HTML, CSS, JavaScript, Java and Figma. My work focuses on clean layouts, clear content and practical digital solutions.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="hero-stats" aria-label="Portfolio highlights">
+          <div>
+            <strong>10+</strong>
+            <span>Web Layouts</span>
+          </div>
+          <div>
+            <strong>6</strong>
+            <span>Core Skills</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>Responsive</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="about-layout">
+        <div class="about-photo">
+          <div class="photo-bg" aria-hidden="true"></div>
+          <img src="assets/about-profile-altered.png" alt="Ardhanari L profile photo" />
+        </div>
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow"></p>
+            <h2>About me</h2>
+          </div>
+          <p class="about-text">
+            I am Ardhanari L, an enthusiastic developer with interest in software and web development. I have knowledge in Java, JDBC, MySQL, HTML, CSS, and Java Swing. I enjoy creating projects, learning new skills, and improving my programming knowledge. My aim is to become a successful software developer and build useful applications.
+          </p>
+          <div class="about-strip">
+            <span>Clean Code</span>
+            <span>Modern UI</span>
+            <span>Mobile First</span>
+            <span>Fast Loading</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span>01</span>
+          <h3>HTML</h3>
+          <p>Clean structure, accessible sections and semantic markup.</p>
+          <div class="skill-meter" style="--level: 94%"><i></i></div>
+          <div class="skill-chips">
+            <small>Semantic</small>
+            <small>Forms</small>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span>02</span>
+          <h3>CSS</h3>
+          <p>Responsive layouts, custom colors, animations and polished styling.</p>
+          <div class="skill-meter" style="--level: 92%"><i></i></div>
+          <div class="skill-chips">
+            <small>Responsive</small>
+            <small>Motion</small>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span>03</span>
+          <h3>JavaScript</h3>
+          <p>Interactive menus, filters, effects and browser behavior.</p>
+          <div class="skill-meter" style="--level: 84%"><i></i></div>
+          <div class="skill-chips">
+            <small>DOM</small>
+            <small>Effects</small>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span>04</span>
+          <h3>UI Design</h3>
+          <p>Balanced spacing, readable typography and strong visual hierarchy.</p>
+          <div class="skill-meter" style="--level: 88%"><i></i></div>
+          <div class="skill-chips">
+            <small>Layout</small>
+            <small>Figma</small>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span>05</span>
+          <h3>Java</h3>
+          <p>Object-oriented programming, backend logic and structured application development.</p>
+          <div class="skill-meter" style="--level: 82%"><i></i></div>
+          <div class="skill-chips">
+            <small>OOP</small>
+            <small>JDBC</small>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span>06</span>
+          <h3>Figma</h3>
+          <p>Wireframes, prototypes, interface layouts and clean visual design planning.</p>
+          <div class="skill-meter" style="--level: 78%"><i></i></div>
+          <div class="skill-chips">
+            <small>Prototype</small>
+            <small>Design</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected Work</h2>
+        <h3>Projects that showcase my design thinking and craft.</h3>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card hospital">
+          <div class="project-visual" aria-label="Hospital management system related image">
+            <img src="assets/hospital-management-system.png" alt="Hospital management system dashboard preview" />
+          </div>
+          <div class="project-body">
+            <p class="project-type">Healthcare Web App</p>
+            <h3>Hospital Management System</h3>
+            <p>A digital system for managing patients, appointments, doctors, billing records and hospital workflow in one organized portal.</p>
+            <div class="project-tags">
+              <span>Patients</span>
+              <span>Appointments</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card gloves">
+          <div class="project-visual" aria-label="Sign language gloves related image">
+            <img src="https://physicsworld.com/wp-content/uploads/2017/07/2017-07-19-flash-1.jpg" alt="Sign language gloves technology preview" data-fallback="Sign Language Gloves" />
+          </div>
+          <div class="project-body">
+            <p class="project-type">Assistive Technology</p>
+            <h3>Sign Language Gloves</h3>
+            <p>A smart glove concept that detects hand gestures and converts sign language movements into readable digital output.</p>
+            <div class="project-tags">
+              <span>IoT</span>
+              <span>Gesture</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card banking">
+          <div class="project-visual" aria-label="Online banking system related image">
+            <img src="assets/online-banking-system.png" alt="Online banking system dashboard preview" />
+          </div>
+          <div class="project-body">
+            <p class="project-type">Finance Web App</p>
+            <h3>Online Banking System</h3>
+            <p>A secure banking portal for managing user accounts, balance checks, money transfers, transaction history and digital payments.</p>
+            <div class="project-tags">
+              <span>Banking</span>
+              <span>Payments</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card farm">
+          <div class="project-visual" aria-label="Farm guard digital management portal related image">
+            <img src="assets/farm-guard-management-system-v2.png" alt="Farm Guard management system dashboard preview" />
+          </div>
+          <div class="project-body">
+            <p class="project-type">Agriculture Portal</p>
+            <h3>Farm Guard Management System</h3>
+            <p>A smart agriculture portal for monitoring crop health, field updates, weather conditions, irrigation status and protection alerts in one dashboard.</p>
+            <div class="project-tags">
+              <span>Crop Health</span>
+              <span>Field Alerts</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card stress">
+          <div class="project-visual" aria-label="Stress buster related image">
+            <img src="assets/stress-buster.png" alt="Stress Buster wellness website preview" />
+          </div>
+          <div class="project-body">
+            <p class="project-type">Wellness App</p>
+            <h3>Stress Buster</h3>
+            <p>A relaxation website idea with mood tracking, breathing exercises, calming activities and simple stress relief tools.</p>
+            <div class="project-tags">
+              <span>Wellness</span>
+              <span>Breathing</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Contact me for project work or collaboration.</h2>
+        <div class="social-links" aria-label="Social media links">
+          <a class="social-link whatsapp" href="https://wa.me/919363608594" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12.04 2a9.84 9.84 0 0 0-8.48 14.84L2.36 22l5.28-1.16A9.82 9.82 0 1 0 12.04 2Zm0 1.8a8.02 8.02 0 1 1 0 16.04 8.05 8.05 0 0 1-4.06-1.1l-.3-.18-3.04.66.68-2.94-.2-.32A8.03 8.03 0 0 1 12.04 3.8Zm-3.42 4.1c-.18 0-.46.07-.7.34-.24.26-.92.9-.92 2.2s.94 2.56 1.08 2.74c.14.18 1.84 2.92 4.56 3.98 2.26.9 2.72.72 3.22.68.5-.04 1.6-.66 1.82-1.3.22-.64.22-1.18.16-1.3-.08-.12-.26-.18-.54-.32-.28-.14-1.62-.8-1.88-.9-.26-.1-.44-.14-.62.14-.18.28-.72.9-.88 1.08-.16.18-.32.2-.6.06-.28-.14-1.18-.44-2.24-1.38-.82-.74-1.38-1.66-1.54-1.94-.16-.28-.02-.42.12-.56.12-.12.28-.32.42-.48.14-.16.18-.28.28-.46.1-.18.04-.34-.02-.48-.06-.14-.62-1.5-.86-2.06-.22-.54-.46-.46-.64-.46h-.3Z" />
+            </svg>
+          </a>
+          <a class="social-link instagram" href="https://www.instagram.com/itz._.addhu_07" target="_blank" rel="noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8Zm4.2 3.2A4.8 4.8 0 1 1 7.2 12 4.8 4.8 0 0 1 12 7.2Zm0 2A2.8 2.8 0 1 0 14.8 12 2.8 2.8 0 0 0 12 9.2Zm5.05-2.6a1.15 1.15 0 1 1-1.15 1.15 1.15 1.15 0 0 1 1.15-1.15Z" />
+            </svg>
+          </a>
+          <a class="social-link linkedin" href="https://www.linkedin.com/in/Ardhanari L" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5.2 8.7H2.6V21h2.6V8.7ZM3.9 3A1.54 1.54 0 1 0 5.5 4.54 1.53 1.53 0 0 0 3.9 3Zm6 5.7H7.4V21H10v-6.5c0-1.72.78-2.74 2.16-2.74 1.24 0 1.84.88 1.84 2.52V21h2.6v-7.18c0-3.48-1.86-5.1-4.34-5.1A3.02 3.02 0 0 0 10 9.96V8.7ZM18.2 3H21v18h-2.8V3Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form">
+        <label>
+          Name
+          <input type="text" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="your@email.com" required />
+        </label>
+        <label>
+          Message
+          <textarea rows="5" placeholder="Tell me about your project" required></textarea>
+        </label>
+        <button class="btn primary" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Copyright <span id="year"></span> Ardhanari L. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
