@@ -1143,6 +1143,10 @@ h3 {
   background: #0a66c2;
 }
 
+.social-link.resume {
+  background: var(--teal);
+}
+
 .contact-form {
   display: grid;
   gap: 16px;
