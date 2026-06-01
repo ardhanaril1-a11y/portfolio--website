@@ -1142,6 +1142,15 @@ h3 {
 .social-link.linkedin {
   background: #0a66c2;
 }
+.social-link.resume {
+  background: linear-gradient(135deg, var(--teal), var(--blue));
+  box-shadow: 0 8px 20px rgba(21, 154, 156, 0.4);
+}
+
+.social-link.resume:hover {
+  background: linear-gradient(135deg, var(--blue), var(--teal));
+  box-shadow: 0 14px 30px rgba(21, 154, 156, 0.55);
+}
 
 .contact-form {
   display: grid;
