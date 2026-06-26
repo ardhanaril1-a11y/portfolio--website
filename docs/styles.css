@@ -646,6 +646,9 @@ h3 {
   background: var(--teal);
   transform: translateY(-3px);
 }
+.about-text {
+  text-align: justify;
+}
 
 .skills-grid,
 .project-grid {
